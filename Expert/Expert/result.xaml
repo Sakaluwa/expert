@@ -1,0 +1,45 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Expert"
+        xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" x:Class="Expert.result"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="测试结果分析" Height="760" Width="1300" Icon="C.PNG">
+    <StackPanel Canvas.Left="-320.5" Canvas.Top="-213" RenderTransformOrigin="-0.01,0.155" Margin="0,0,2,-0.5" d:LayoutOverrides="HorizontalAlignment">
+        <Canvas Height="482.5" RenderTransformOrigin="0.56,2.235" Margin="234,0,10,0" d:IsLocked="True">
+            <Path x:Name="path1" Fill="Yellow"
+                  Stroke="Black" StrokeThickness="2" d:IsLocked="True"/>
+            <Path x:Name="path2" Fill="Green"
+                  Stroke="Blue" StrokeThickness="2"/>
+            <TextBlock x:Name="textBlocke" Canvas.Left="-57" TextWrapping="Wrap" Text="TextBlock" Canvas.Top="30.72" FontSize="18" FontWeight="Bold" Height="44"/>
+            <TextBlock x:Name="textBlocks" Canvas.Left="176.25" TextWrapping="Wrap" Text="TextBlock" Canvas.Top="30.72" FontSize="18" FontWeight="Bold" Height="44"/>
+            <TextBlock x:Name="textBlocki" Canvas.Left="-218.75" TextWrapping="Wrap" Text="TextBlock" Canvas.Top="241.525" RenderTransformOrigin="-0.446,0.882" FontSize="18" FontWeight="Bold" Height="44"/>
+            <TextBlock x:Name="textBlocka" Canvas.Left="310.25" TextWrapping="Wrap" Text="TextBlock" Canvas.Top="241.525" FontSize="18" FontWeight="Bold" Height="44"/>
+            <TextBlock x:Name="textBlockr" TextWrapping="Wrap" Text="TextBlock" Canvas.Top="438.72" Canvas.Left="-57" FontSize="18" FontWeight="Bold" Height="44"/>
+            <TextBlock x:Name="textBlockc" Canvas.Left="176.25" TextWrapping="Wrap" Text="TextBlock" Canvas.Top="438.72" FontSize="18" FontWeight="Bold" Height="44"/>
+            <Image x:Name="job1" Height="230" Canvas.Left="468.5" Source="you.png" Stretch="Fill" Canvas.Top="30.72" Width="170"/>
+            <Image x:Name="job6" Height="230" Canvas.Left="851" Source="you.png" Stretch="Fill" Canvas.Top="252.72" Width="170"/>
+            <Image x:Name="job5" Height="230" Canvas.Left="663" Source="you.png" Stretch="Fill" Canvas.Top="252.72" Width="170"/>
+            <Image x:Name="job4" Height="230" Canvas.Left="468.5" Source="you.png" Stretch="Fill" Canvas.Top="252.72" Width="170"/>
+            <Image x:Name="job3" Height="230" Canvas.Left="851" Source="you.png" Stretch="Fill" Canvas.Top="30.72" Width="170"/>
+            <Image x:Name="job2" Height="230" Canvas.Left="663" Source="you.png" Stretch="Fill" Canvas.Top="30.72" Width="170"/>
+
+        </Canvas>
+        <Canvas Height="244">
+            <TextBlock x:Name="textBlocktype2" Canvas.Left="360" TextWrapping="Wrap" Height="44.72" Width="347" RenderTransformOrigin="0.177,0.35" FontSize="24" FontWeight="Bold" FontStyle="Italic" Background="#FFF8EE05" Canvas.Top="2.174" TextAlignment="Center" Text="现实型（R）:"/>
+            <TextBlock x:Name="textBlocktype1" TextWrapping="Wrap" FontSize="24" Height="43.06" Width="352" Canvas.Top="3.834" FontWeight="Bold" FontStyle="Italic" TextDecorations="{x:Null}" Foreground="#FF3E3E40" Background="#FF34EA12" Canvas.Left="3" TextAlignment="Center"><Run Text="现实型（R）"/><Run Text=":"/></TextBlock>
+            <TextBlock x:Name="textBlockdetail1" TextWrapping="Wrap" Canvas.Top="46.894" Height="197.106" Width="352" Foreground="Black" FontSize="16" FontFamily="Kristen ITC" Background="#FF83FC72" Canvas.Left="3" LineHeight="24" FontWeight="Bold"><Run Text="    "/><Run Text="   "/><Run Text="具有顺从、坦率、谦虚、自然、坚毅、实际、有礼、害羞、稳健、节俭的特征，表现为"/><LineBreak/><Run Text="      1、喜爱实用性的职业或情境，以从事所喜好的活动，避免社会性的职业或情境"/><LineBreak/><Run Text="      2、用具体实际的能力解决工作及其他方面的问题，较缺乏人际关系方面的能力。"/><LineBreak/><Run Text="       3、重视具体的事物，如金钱，权力、地位等。"/></TextBlock>
+            <TextBlock x:Name="textBlockdetail2" Canvas.Left="360" TextWrapping="Wrap" Canvas.Top="46.894" Height="197.106" Width="347" FontSize="16" FontFamily="Kristen ITC" Background="#FFF2EA84" LineHeight="24" FontWeight="Bold"><Run Text="具有顺从、坦率、谦虚、自然、坚毅、实际、有礼、害羞、稳健、节俭的特征，表现为"/><LineBreak/><Run Text="  "/><Run Text="    "/><Run Text="1"/><Span><Run Text="、喜爱实用性的职业或情境，以从事所喜好的活动，避免社会性的职业或情境"/></Span><LineBreak/><Run Text="      "/><Run Text="2"/><Span><Run Text="、用具体实际的能力解决工作及其他方面的问题，较缺乏人际关系方面的能力。"/></Span><LineBreak/><Run Text="       "/><Run Text="3"/><Span><Run Text="、重视具体的事物，如金钱，权力、地位等。"/></Span><LineBreak/><Run Text=""/></TextBlock>
+            <TextBlock x:Name="textBlocktype" Canvas.Left="712" TextWrapping="Wrap" Canvas.Top="2.174" Height="44.72" Width="536.147" FontSize="24" Background="#FF36A4BE" LineHeight="24" Text="RIA型职业推荐" TextAlignment="Center" FontWeight="Bold" FontStyle="Italic"/>
+            <TextBlock x:Name="textBlockdetail" Canvas.Left="712" TextWrapping="Wrap" Canvas.Top="46.894" Height="197.106" Width="536.147" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Showcard Gothic" TextAlignment="Center" LineHeight="48" FontWeight="Bold" Background="#FF91E6D6"><Run/><LineBreak/><Run Text="牙科技术员、陶工、建筑设计员、模型工、细木工、"/><LineBreak/><Run Text="链条制作人员、厨师、跳水员、服务员、焊接工"/></TextBlock>
+        </Canvas>
+
+
+    </StackPanel>
+
+
+
+</Window>

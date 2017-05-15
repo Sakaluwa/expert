@@ -1,0 +1,50 @@
+﻿<Window x:Name="modify1" x:Class="Expert.modify"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Expert"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="规则修改" Height="760" Width="708" Icon="C.PNG">
+    <StackPanel Margin="0,0,2,0">
+        <Canvas Height="724.5">
+            <Canvas.Background>
+                <ImageBrush ImageSource="modify.PNG" Stretch="None"/>
+            </Canvas.Background>
+            <TextBox x:Name="textBoxr1" Height="27" Canvas.Left="255" TextWrapping="Wrap" Canvas.Top="100" Width="116" RenderTransformOrigin="0.509,0.607" Background="#FFAFEE6C" FontSize="16" TextAlignment="Center" BorderBrush="#FFF5F5F8" Text="工人"/>
+            <TextBox x:Name="textBoxr2" Height="27" Canvas.Left="379" TextWrapping="Wrap" Canvas.Top="100" Width="116" RenderTransformOrigin="0.509,0.607" Background="#FFAFEE6C" FontSize="16" TextAlignment="Center" BorderBrush="#FFF5F5F8" Text="农民"/>
+            <TextBox x:Name="textBoxr3" Height="27" Canvas.Left="505" TextWrapping="Wrap" Canvas.Top="100" Width="116" RenderTransformOrigin="0.509,0.607" Background="#FFAFEE6C" FontSize="16" TextAlignment="Center" BorderBrush="#FFF5F5F8" Text="土木工程师"/>
+            <TextBox x:Name="textBoxi1" Height="27" Canvas.Left="255" TextWrapping="Wrap" Canvas.Top="133" Width="116" RenderTransformOrigin="0.509,0.607" Background="#FFAFEE6C" FontSize="16" TextAlignment="Center" BorderBrush="#FFF5F5F8" Text="科研人员"/>
+            <TextBox x:Name="textBoxi2" Height="27" Canvas.Left="379" TextWrapping="Wrap" Canvas.Top="133" Width="116" RenderTransformOrigin="0.509,0.607" Background="#FFAFEE6C" FontSize="16" TextAlignment="Center" BorderBrush="#FFF5F5F8" Text="数学家"/>
+            <TextBox x:Name="textBoxi3" Height="27" Canvas.Left="505" TextWrapping="Wrap" Canvas.Top="133" Width="116" RenderTransformOrigin="0.509,0.607" Background="#FFAFEE6C" FontSize="16" TextAlignment="Center" BorderBrush="#FFF5F5F8" Text="生物学家"/>
+            <TextBox x:Name="textBoxa1" Height="27" Canvas.Left="255" TextWrapping="Wrap" Canvas.Top="167" Width="116" RenderTransformOrigin="0.509,0.607" Background="#FFAFEE6C" FontSize="16" TextAlignment="Center" BorderBrush="#FFF5F5F8" Text="诗人"/>
+            <TextBox x:Name="textBoxa2" Height="27" Canvas.Left="379" TextWrapping="Wrap" Canvas.Top="167" Width="116" RenderTransformOrigin="0.509,0.607" Background="#FFAFEE6C" FontSize="16" TextAlignment="Center" BorderBrush="#FFF5F5F8" Text="艺术家"/>
+            <TextBox x:Name="textBoxa3" Height="27" Canvas.Left="505" TextWrapping="Wrap" Canvas.Top="167" Width="116" RenderTransformOrigin="0.509,0.607" Background="#FFAFEE6C" FontSize="16" TextAlignment="Center" BorderBrush="#FFF5F5F8"/>
+            <TextBox x:Name="textBoxs1" Height="27" Canvas.Left="255" TextWrapping="Wrap" Canvas.Top="202" Width="116" RenderTransformOrigin="0.509,0.607" Background="#FFAFEE6C" FontSize="16" TextAlignment="Center" BorderBrush="#FFF5F5F8" Text="教师"/>
+            <TextBox x:Name="textBoxs2" Height="27" Canvas.Left="379" TextWrapping="Wrap" Canvas.Top="202" Width="116" RenderTransformOrigin="0.509,0.607" Background="#FFAFEE6C" FontSize="16" TextAlignment="Center" BorderBrush="#FFF5F5F8" Text="牧师"/>
+            <TextBox x:Name="textBoxs3" Height="27" Canvas.Left="505" TextWrapping="Wrap" Canvas.Top="202" Width="116" RenderTransformOrigin="0.509,0.607" Background="#FFAFEE6C" FontSize="16" TextAlignment="Center" BorderBrush="#FFF5F5F8" Text="辅导人员"/>
+            <TextBox x:Name="textBoxe1" Height="27" Canvas.Left="255" TextWrapping="Wrap" Canvas.Top="234" Width="116" RenderTransformOrigin="0.509,0.607" Background="#FFAFEE6C" FontSize="16" TextAlignment="Center" BorderBrush="#FFF5F5F8" Text="推销员"/>
+            <TextBox x:Name="textBoxe2" Height="27" Canvas.Left="379" TextWrapping="Wrap" Canvas.Top="234" Width="116" RenderTransformOrigin="0.509,0.607" Background="#FFAFEE6C" FontSize="16" TextAlignment="Center" BorderBrush="#FFF5F5F8" Text="政治家"/>
+            <TextBox x:Name="textBoxe3" Height="27" Canvas.Left="505" TextWrapping="Wrap" Canvas.Top="234" Width="116" RenderTransformOrigin="0.509,0.607" Background="#FFAFEE6C" FontSize="16" TextAlignment="Center" BorderBrush="#FFF5F5F8" Text="企业家"/>
+            <TextBox x:Name="textBoxc1" Height="27" Canvas.Left="255" TextWrapping="Wrap" Canvas.Top="270" Width="116" RenderTransformOrigin="0.509,0.607" Background="#FFAFEE6C" FontSize="16" TextAlignment="Center" BorderBrush="#FFF5F5F8" Text="出纳"/>
+            <TextBox x:Name="textBoxc2" Height="27" Canvas.Left="379" TextWrapping="Wrap" Canvas.Top="270" Width="116" RenderTransformOrigin="0.509,0.607" Background="#FFAFEE6C" FontSize="16" TextAlignment="Center" BorderBrush="#FFF5F5F8" Text="会计"/>
+            <TextBox x:Name="textBoxc3" Height="27" Canvas.Left="505" TextWrapping="Wrap" Canvas.Top="270" Width="116" RenderTransformOrigin="0.509,0.607" Background="#FFAFEE6C" FontSize="16" TextAlignment="Center" BorderBrush="#FFF5F5F8" Text="秘书"/>
+            <TextBox x:Name="textBoxj1" Height="27" Canvas.Left="68" TextWrapping="Wrap" Canvas.Top="440" Width="177" BorderBrush="White" Background="#FF76DDFC" FontSize="18" TextAlignment="Center" Text="画家"/>
+            <TextBox x:Name="textBoxj2" Height="27" Canvas.Left="254" TextWrapping="Wrap" Canvas.Top="440" Width="118" BorderBrush="White" Background="#FF76DDFC" FontSize="18" TextAlignment="Center" Text="剧作家"/>
+            <TextBox x:Name="textBoxj5" Height="27" Canvas.Left="68" TextWrapping="Wrap" Canvas.Top="507" Width="177" BorderBrush="White" Background="#FF76DDFC" FontSize="18" TextAlignment="Center" Text="时装艺术大师"/>
+            <TextBox x:Name="textBoxj9" Height="27" Canvas.Left="68" TextWrapping="Wrap" Canvas.Top="576" Width="177" BorderBrush="White" Background="#FF76DDFC" FontSize="18" TextAlignment="Center"/>
+            <TextBox x:Name="textBoxj3" Height="27" Canvas.Left="379" TextWrapping="Wrap" Canvas.Top="440" Width="118" BorderBrush="White" Background="#FF76DDFC" FontSize="18" TextAlignment="Center" Text="编辑"/>
+            <TextBox x:Name="textBoxj4" Height="27" Canvas.Left="504" TextWrapping="Wrap" Canvas.Top="440" Width="118" BorderBrush="White" Background="#FF76DDFC" FontSize="18" TextAlignment="Center" Text="评论家"/>
+            <TextBox x:Name="textBoxj6" Height="27" Canvas.Left="253" TextWrapping="Wrap" Canvas.Top="507" Width="118" BorderBrush="White" Background="#FF76DDFC" FontSize="18" TextAlignment="Center" Text="新闻摄影师"/>
+            <TextBox x:Name="textBoxj7" Height="27" Canvas.Left="379" TextWrapping="Wrap" Canvas.Top="507" Width="118" BorderBrush="White" Background="#FF76DDFC" FontSize="18" TextAlignment="Center" Text="男演员"/>
+            <TextBox x:Name="textBoxj8" Height="27" Canvas.Left="504" TextWrapping="Wrap" Canvas.Top="507" Width="118" BorderBrush="White" Background="#FF76DDFC" FontSize="18" TextAlignment="Center" Text="文学作家"/>
+            <TextBox x:Name="textBoxj10" Height="27" Canvas.Left="253" TextWrapping="Wrap" Canvas.Top="576" Width="118" BorderBrush="White" Background="#FF76DDFC" FontSize="18" TextAlignment="Center"/>
+            <TextBox x:Name="textBoxjtype" Height="27" Canvas.Left="380" TextWrapping="Wrap" Canvas.Top="372" Width="241" BorderBrush="White" Background="#FF76DDFC" FontSize="18" TextAlignment="Center" RenderTransformOrigin="0.496,0.37" Text="AIS"/>
+            <Button x:Name="buttontc" Content="重置" Canvas.Left="422" Canvas.Top="324" Width="75" FontSize="16" FontFamily="Yu Gothic UI Semibold" Background="#FFBCBCC6" Cursor="Arrow" Click="clear_typejob"/>
+            <Button x:Name="buttontt" Content="提交" Canvas.Left="547" Canvas.Top="324" Width="75" FontSize="16" FontFamily="Yu Gothic UI Semibold" Background="#FFBCBCC6" Click="submit_type"/>
+            <Button x:Name="buttondt" Content="提交" Canvas.Left="546" Canvas.Top="625" Width="75" FontSize="16" FontFamily="Yu Gothic UI Semibold" Background="#FFBCBCC6" RenderTransformOrigin="1.16,0.554" Click="submit_job"/>
+            <Button x:Name="buttondc" Content="重置" Canvas.Left="420" Canvas.Top="625" Width="75" FontSize="16" FontFamily="Yu Gothic UI Semibold" Background="#FFBCBCC6" Click="clear_detailjob"/>
+        </Canvas>
+    </StackPanel>
+</Window>
