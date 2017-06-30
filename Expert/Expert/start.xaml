@@ -8,6 +8,10 @@
         WindowStartupLocation="CenterScreen"
         Title="职业性格测试" Height="760" Width="708" Icon="C.PNG">
     <Grid Margin="40,0,-59,-176.25">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="175*"/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="85*"/>
             <ColumnDefinition Width="36*"/>
@@ -19,8 +23,19 @@
             <ColumnDefinition Width="54*"/>
             <ColumnDefinition Width="81*"/>
         </Grid.ColumnDefinitions>
-        <Image Grid.ColumnSpan="8" Margin="-31.766,0,-51.901,288.25" Source="iwantyou.jpg" Stretch="Fill" d:IsLocked="True"/>
-        <Button Content="开始测试" Margin="0,0,-71.692,201.997" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Height="67.48" Width="180" FontFamily="Showcard Gothic" FontSize="36" FontWeight="Bold" Click="start_test" HorizontalAlignment="Right"/>
-        <Button Content="修改规则" Grid.Column="4" Margin="63.37,0,0,201.997" VerticalAlignment="Bottom" Grid.ColumnSpan="4" Height="67.48" FontSize="36" FontFamily="Showcard Gothic" FontWeight="Bold" Click="start_modify" Width="180" HorizontalAlignment="Left"/>
+        <Image Grid.ColumnSpan="8" Margin="-31.766,0,-51.901,288.25" Source="iwantyou.jpg" Stretch="Fill" d:IsLocked="True" Grid.RowSpan="2"/>
+        <Button Content="开始测试" Margin="0,0,-71.692,201.997" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Height="67.48" Width="180" FontFamily="Showcard Gothic" FontSize="36" FontWeight="Bold" Click="start_test" HorizontalAlignment="Right" d:IsLocked="True" Grid.Row="1"/>
+        <Button Content="修改规则" Grid.Column="4" Margin="63.37,0,0,201.997" VerticalAlignment="Bottom" Grid.ColumnSpan="4" Height="67.48" FontSize="36" FontFamily="Showcard Gothic" FontWeight="Bold" Click="start_modify" Width="180" HorizontalAlignment="Left" d:IsLocked="True" Grid.Row="1"/>
+        <Canvas Margin="78.413,158.326,-56.37,0" Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="2" Height="139.439" VerticalAlignment="Top" Background="#FFDBF8DA">
+            <TextBox x:Name="textBoxpwd" TextWrapping="Wrap" Text="123456" BorderBrush="#FF625B5C" Height="18.001" Width="80" Canvas.Left="65" Canvas.Top="79"/>
+            <TextBox x:Name="textBoxuser" TextWrapping="Wrap" Text="sa" BorderBrush="#FF625B5C" Height="18" VerticalAlignment="Top" Width="80" Canvas.Left="65" Canvas.Top="56"/>
+            <TextBox x:Name="textBoxserver" Height="18" Canvas.Left="65" TextWrapping="Wrap" Text="SAKALUWA" Canvas.Top="10" Width="80" BorderBrush="#FF625B5C"/>
+            <TextBlock x:Name="textBlock" Canvas.Left="8.706" TextWrapping="Wrap" Text="服务器：" Canvas.Top="10" FontSize="14" Height="18" Width="64.337"/>
+            <TextBox x:Name="textBoxdb" Height="18" Canvas.Left="65" TextWrapping="Wrap" Text="career" Canvas.Top="33" Width="80" BorderBrush="#FF625B5C"/>
+            <TextBlock x:Name="textBlock_Copy" Canvas.Left="8.706" TextWrapping="Wrap" Canvas.Top="33" FontSize="14" Height="18" Width="59.337"><Run Text="数据库"/><Run Text="："/></TextBlock>
+            <TextBlock x:Name="textBlock_Copy1" TextWrapping="Wrap" FontSize="14" Height="18" Canvas.Left="10" Canvas.Top="56" Width="55"><Run Text="用"/><Run Text=" "/><Run Text="  "/><Run Text="户"/><Run Text="："/></TextBlock>
+            <TextBlock x:Name="textBlock_Copy2" TextWrapping="Wrap" FontSize="14" Height="18.001" Canvas.Left="10" Canvas.Top="79" Width="55"><Run Text="密"/><Run Text="   "/><Run Text="码"/><Run Text="："/></TextBlock>
+            <Button x:Name="button" Content="确定" Canvas.Left="11.957" Canvas.Top="111.439" Width="133.043" Height="18" Click="database_info"/>
+        </Canvas>
     </Grid>
 </Window>

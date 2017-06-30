@@ -20,8 +20,9 @@ namespace Expert
     /// </summary>
     public partial class start : Window
     {
-        private string[] type = { "常规型", "现实型", "研究型", "管理型", "社会型", "艺术型" };
+        private string[] type = { "传统型", "现实型", "研究型", "管理型", "社会型", "艺术型" };
         private result re = new result();
+        public static string server = "SAKALUWA", database = "career", uid = "sa", pwd = "123456";
 
         public start()
         {
@@ -32,7 +33,7 @@ namespace Expert
         private void start_test(object sender, RoutedEventArgs e)
         {
           
-            string connString = "Server=SAKALUWA;DataBase=career;Uid=sa;Pwd=123456";
+            string connString = "Server="+server+";DataBase="+database+";Uid="+uid+";Pwd="+pwd;
             SqlConnection conn = new SqlConnection(connString);
             conn.Open();
             for (int i = 0; i < 60; i++)
@@ -543,6 +544,15 @@ namespace Expert
 
 
         }
+
+        private void database_info(object sender, RoutedEventArgs e)
+        {
+            server=textBoxserver.Text.ToString().Trim();
+            database = textBoxdb.Text.ToString().Trim();
+            uid = textBoxuser.Text.ToString().Trim();
+            pwd = textBoxpwd.Text.ToString().Trim();
+        }
+
         private void show_job4(string s)
         {
             if (s.Contains( "诗人"))

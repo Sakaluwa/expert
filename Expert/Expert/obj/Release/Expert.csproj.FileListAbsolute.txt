@@ -58,3 +58,7 @@ E:\gitWarehouse\expert\Expert\Expert\obj\Release\test.baml
 E:\gitWarehouse\expert\Expert\Expert\obj\Release\Expert.g.resources
 E:\gitWarehouse\expert\Expert\Expert\obj\Release\Expert.Properties.Resources.resources
 E:\gitWarehouse\expert\Expert\Expert\obj\Release\Expert.csproj.GenerateResource.Cache
+E:\gitWarehouse\expert\Expert\Expert\bin\Release\Expert.exe.manifest
+E:\gitWarehouse\expert\Expert\Expert\bin\Release\Expert.application
+E:\gitWarehouse\expert\Expert\Expert\obj\Release\Expert.exe.manifest
+E:\gitWarehouse\expert\Expert\Expert\obj\Release\Expert.application

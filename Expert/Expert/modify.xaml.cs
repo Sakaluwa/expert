@@ -68,7 +68,7 @@ namespace Expert
         private void submit_type(object sender, RoutedEventArgs e)
         {
             //连接数据库：Server=服务器名称；DataBase=数据库名称；Uid=用户登录名；Pwd=登录密码
-            string connString = "Server=SAKALUWA;DataBase=career;Uid=sa;Pwd=123456";
+            string connString = "Server=" + start.server + ";DataBase=" + start.database + ";Uid=" + start.uid + ";Pwd=" + start.pwd;
             SqlConnection conn = new SqlConnection(connString);
             conn.Open();//连接数据库
             if (textBoxr1.Text.ToString().Trim() != "")
@@ -186,7 +186,7 @@ namespace Expert
 
         private void submit_job(object sender, RoutedEventArgs e)
         {
-            string connString = "Server=SAKALUWA;DataBase=career;Uid=sa;Pwd=123456";
+            string connString = "Server=" + start.server + ";DataBase=" + start.database + ";Uid=" + start.uid + ";Pwd=" + start.pwd;
             SqlConnection conn = new SqlConnection(connString);
             conn.Open();
             //Trim去除首尾空格
@@ -225,6 +225,7 @@ namespace Expert
             {
                 MessageBox.Show("请您输入职业性格类型（例：\"ACE\"）!");
             }
+            conn.Close();
 
         }
     }

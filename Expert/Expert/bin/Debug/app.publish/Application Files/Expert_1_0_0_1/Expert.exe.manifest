@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Expert.exe" version="1.0.0.1" publicKeyToken="abcf1d003e0b2e73" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="zhi.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Expert" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Expert.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Expert.exe" size="1192376">
+      <assemblyIdentity name="Expert" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>YWAOfDHSSkEfG8NEUOzkEI00PArvuiviPt+mzdGUdPQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Expression.Drawing.dll" size="144496">
+      <assemblyIdentity name="Microsoft.Expression.Drawing" version="4.5.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HWnq9TgAjg/hp+ss4BJKSblcSReXdJZAyDUe1GQ/XJc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\Microsoft.Expression.Drawing.resources.dll" size="22176">
+      <assemblyIdentity name="Microsoft.Expression.Drawing.resources" version="4.5.0.0" publicKeyToken="31BF3856AD364E35" language="de" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NBZ/Inog7B/RPkStgN4Iqm3zS+zau7a7O8+xtIwqqB8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="es\Microsoft.Expression.Drawing.resources.dll" size="22176">
+      <assemblyIdentity name="Microsoft.Expression.Drawing.resources" version="4.5.0.0" publicKeyToken="31BF3856AD364E35" language="es" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>hZHIxmRTEo/NBW8FPML3IMqcl7rqBOV9cEglFwXxYb4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="fr\Microsoft.Expression.Drawing.resources.dll" size="22176">
+      <assemblyIdentity name="Microsoft.Expression.Drawing.resources" version="4.5.0.0" publicKeyToken="31BF3856AD364E35" language="fr" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>RL3Xy0dTjJcj/tI7S8dRYpleSAhjffzYsqfqUHsuRlA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="it\Microsoft.Expression.Drawing.resources.dll" size="22176">
+      <assemblyIdentity name="Microsoft.Expression.Drawing.resources" version="4.5.0.0" publicKeyToken="31BF3856AD364E35" language="it" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>SWGeKAbPuKhDSYuFGkfqyYamcRLXEzuqQ8sYBQqupSk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ja\Microsoft.Expression.Drawing.resources.dll" size="22192">
+      <assemblyIdentity name="Microsoft.Expression.Drawing.resources" version="4.5.0.0" publicKeyToken="31BF3856AD364E35" language="ja" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>QeKyNbE5gb9JzX+fvJG6THbjy8egaVGGZ018Z8xDSe4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ko\Microsoft.Expression.Drawing.resources.dll" size="22176">
+      <assemblyIdentity name="Microsoft.Expression.Drawing.resources" version="4.5.0.0" publicKeyToken="31BF3856AD364E35" language="ko" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>71NleUffUDgK6juZAEJSNJ8uVA2+rT6m9KxkQtdTPJQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\Microsoft.Expression.Drawing.resources.dll" size="22192">
+      <assemblyIdentity name="Microsoft.Expression.Drawing.resources" version="4.5.0.0" publicKeyToken="31BF3856AD364E35" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>roJH1gQomZSvFZrxPGK3MtIweFlm04CX8VC9Msqcq2Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="zh-Hans\Microsoft.Expression.Drawing.resources.dll" size="22192">
+      <assemblyIdentity name="Microsoft.Expression.Drawing.resources" version="4.5.0.0" publicKeyToken="31BF3856AD364E35" language="zh-Hans" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+ufnw9529UcuYGV2Q9xE7DEUbYF2jqRT0kOiccynlQo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="zh-Hant\Microsoft.Expression.Drawing.resources.dll" size="22176">
+      <assemblyIdentity name="Microsoft.Expression.Drawing.resources" version="4.5.0.0" publicKeyToken="31BF3856AD364E35" language="zh-Hant" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>oelllR+CjglSkHuuw9X0GyLT5OYX2gm8HRL6rPyRaCs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Expert.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="zhi.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TlsP4jMELYhKcpM1yIoxilPiIaGpekKSVNUb1bn4cc4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SAKALUWA\94839" issuerKeyHash="977eeb1a7c58599a3a165e6621b67f99adbf14cf" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>F7XEF/G4NiVZ+bk3DYrsoP0ZgxqU3gGq7lXBMtSyWMA=</DigestValue></Reference></SignedInfo><SignatureValue>EME1z/cWaCNs9450uU3L7QZUJvfN3+l4YDv7LTpOVFUnWS3xsID08fHE3sstSjjq7UcnC0ZBvEWA/ohJJRAXeBD48ijT/FABdpk3leIQQdjYxN98VzoTRRQtzMFlkI0TWVbkeQM4SF9y2aoePFogYx6HnER1W2fQGtMBa9zD560=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wV7d5k7P6+MPcDUnl9UtH2ZnlIK7U6k/1CIZTgo/f9Vk23Uaw3afyVa0pRILrIOlZt8yNfmbUBln+xIHfB/zgIx+sGCcoA/RNQNDAUNV+VaQPIfBr1wn9MMTQIH7Nvja577IORXFg4O49VR2SP3hgp02HGS2txtIhqVn0uHu7HE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c058b2d432c155eeaa01de941a8319fda0ec8a0d37b9f9592536b8f117c4b517" Description="" Url=""><as:assemblyIdentity name="Expert.exe" version="1.0.0.1" publicKeyToken="abcf1d003e0b2e73" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SAKALUWA\94839</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wQuEu1XXGwejOh8/EKLLd3C/EqB+rJ6ZDQ9Giv7Krsk=</DigestValue></Reference></SignedInfo><SignatureValue>ZyaAdXTJG1kUeoRcRmd+gGzyAvH9D/Y7n+fwjbbtsxXsMBvoilBqxi5A0uaAOmOXRIZJGxrWgOUfYHkbGvvFfKMyuR0cAEx8lxyY5pBpXdvL7dWWpbRgfJHAI2r+gb9/UnFwID+DvSsDl7tr5fChimDo6vNO+t4KHtxZ+TwdwNo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wV7d5k7P6+MPcDUnl9UtH2ZnlIK7U6k/1CIZTgo/f9Vk23Uaw3afyVa0pRILrIOlZt8yNfmbUBln+xIHfB/zgIx+sGCcoA/RNQNDAUNV+VaQPIfBr1wn9MMTQIH7Nvja577IORXFg4O49VR2SP3hgp02HGS2txtIhqVn0uHu7HE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQRKPi5jD5k7NA5T4ikHGQBzANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAUwBBAEsAQQBMAFUAVwBBAFwAOQA0ADgAMwA5MB4XDTE3MDUxNjExNDE0NVoXDTE4MDUxNjE3NDE0NVowJzElMCMGA1UEAx4cAFMAQQBLAEEATABVAFcAQQBcADkANAA4ADMAOTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwV7d5k7P6+MPcDUnl9UtH2ZnlIK7U6k/1CIZTgo/f9Vk23Uaw3afyVa0pRILrIOlZt8yNfmbUBln+xIHfB/zgIx+sGCcoA/RNQNDAUNV+VaQPIfBr1wn9MMTQIH7Nvja577IORXFg4O49VR2SP3hgp02HGS2txtIhqVn0uHu7HECAwEAATANBgkqhkiG9w0BAQsFAAOBgQBEMScjJj5D9d5FXlafV3hrBhcn3COpGJQWoEGD+9SUEKK/6j0vrrU68iqJ94/IHQ8g+AiRVpD+oU5NvRXSTsuYL9r4cq8ApxBwcG2MuQM70eF0JS6SVYUkKNTyiPj/zztAm0DX4vBhDSEIkNLuFtCwghtZH/zn3Z53elDBdCS4rA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
